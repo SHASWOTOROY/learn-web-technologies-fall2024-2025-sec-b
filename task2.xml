@@ -1,0 +1,38 @@
+<students>
+    <info sr="1">
+        <sl_no><b>23</b></sl_no>
+		<first_name>John Carter </first_name>
+		<last_name>John Carter </last_name>
+		<admissiondate>
+		    date<25>/date>
+			month<12></month>
+			year<12></year>
+			</admissiondate>
+		
+    </info>
+	
+	<info sr="2">
+        <sl_no><b>29</b></sl_no>
+		<first_name>Bob </first_name>
+		<last_name>Marshal</last_name>
+		
+		<admissiondate>
+		    date<13>/date>
+			month<01></month>
+			year<1999></year>
+			</admissiondate>
+		
+    </info>
+	
+	<info sr="3">
+        <sl_no><b>35</b></sl_no>
+		<first_name>Clark </first_name>
+		<last_name>Kent</last_name>
+	<admissiondate>
+		    date<17>/date>
+			month<06></month>
+			year<2005></year>
+			</admissiondate>
+		
+    </info>
+</students>
