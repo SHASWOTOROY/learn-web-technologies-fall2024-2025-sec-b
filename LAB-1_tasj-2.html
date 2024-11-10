@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML Site - Page 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            width: 100%;
+        }
+        .sidebar, .main-content, .external-links {
+            padding: 20px;
+        }
+        .sidebar {
+            width: 20%;
+            border-right: 1px solid #ddd;
+        }
+        .main-content {
+            width: 60%;
+        }
+        .external-links {
+            width: 20%;
+            border-left: 1px solid #ddd;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>First HTML Site</header>
+    
+    <div class="content">
+        <!-- Sidebar Links -->
+        <div class="sidebar">
+            <h3>Links</h3>
+            <a href="page1.html">Page-1</a><br>
+            <a href="page2.html">Page-2</a>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <h3>Page-2</h3>
+            <p>I am at page-2</p>
+        </div>
+
+        <!-- External Links -->
+        <div class="external-links">
+            <h3>External Links</h3>
+            <a href="https://www.google.com" target="_blank">Google</a><br>
+            <a href="https://www.yahoo.com" target="_blank">Yahoo</a><br>
+        </div>
+    </div>
+    
+    <footer>Copyright</footer>
+</div>
+
+</body>
+</html>
+
+
