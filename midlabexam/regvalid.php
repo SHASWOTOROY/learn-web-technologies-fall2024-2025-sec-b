@@ -27,6 +27,9 @@ if(isset($_SESSION['email']) && !empty($_SESSION['email'])){
     $flag=0;
    
    }
+   if($flag==1){
+    header("Location: reg.php");
+   }
 
 ?>
 <!DOCTYPE html>
